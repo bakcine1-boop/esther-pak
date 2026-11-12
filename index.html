@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>박에스더 | 조선 최초의 여의사, 그리고 볼티모어에 남은 이름</title>
+<meta name="description" content="김점동, 김에스더, 박에스더. 이름 셋을 가진 조선 최초의 여의사와, 아내를 의사로 세우고 볼티모어에 잠든 남편 박여선의 이야기. 베다니 한인연합감리교회가 함께 기억합니다.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="박에스더 | 조선 최초의 여의사">
+<meta property="og:description" content="아내의 졸업 16일 전 볼티모어에서 세상을 떠난 남편 박여선, 그리고 조선 최초의 여의사가 된 박에스더의 이야기">
+<meta property="og:image" content="https://esther.churchhistory.kr/og.jpg">
+<meta property="og:url" content="https://esther.churchhistory.kr/">
+<meta name="theme-color" content="#F8F4EC">
+<link rel="preload" href="serif-600.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="sans-400.woff2" as="font" type="font/woff2" crossorigin>
+<style>
+  @font-face{font-family:"EstherSerif";src:url(serif-500.woff2) format("woff2");font-weight:500;font-display:swap}
+  @font-face{font-family:"EstherSerif";src:url(serif-600.woff2) format("woff2");font-weight:600 700;font-display:swap}
+  @font-face{font-family:"EstherSans";src:url(sans-400.woff2) format("woff2");font-weight:400;font-display:swap}
+  @font-face{font-family:"EstherSans";src:url(sans-600.woff2) format("woff2");font-weight:500 700;font-display:swap}
+  :root{
+    --bg:#F8F4EC; --bg2:#F1EADF; --bg3:#E9E1D3; --card:#FFFDF8;
+    --ink:#221D19; --ink2:#4B433B; --ink3:#655B51; --line:#DDD3C3;
+    --accent:#8B3A2F; --accent-2:#A9604F; --gold:#B48F5A;
+    --serif:"EstherSerif","Noto Serif KR","Nanum Myeongjo","AppleMyungjo",serif;
+    --sans:"EstherSans",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+    --shadow:0 28px 60px -40px rgba(70,45,25,.45);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+  body{margin:0;color:var(--ink);font-family:var(--sans);font-size:17px;line-height:1.85;letter-spacing:-.005em;word-break:keep-all;overflow-wrap:break-word;-webkit-font-smoothing:antialiased;
+    background-color:var(--bg);
+    background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .35 0 0 0 0 .27 0 0 0 0 .2 0 0 0 .05 0'/></filter><rect width='220' height='220' filter='url(%23n)'/></svg>")}
+  img{max-width:100%;display:block}
+  a{color:inherit}
+  .wrap{max-width:680px;margin:0 auto;padding:0 22px}
+  .wide{max-width:1120px;margin:0 auto;padding:0 22px}
+  .eyebrow{font-size:13px;font-weight:600;letter-spacing:.16em;color:var(--accent)}
+  h1,h2,h3,h4{font-family:var(--serif);font-weight:600;color:var(--ink);margin:0}
+  h2{font-size:clamp(28px,5vw,40px);line-height:1.35;margin:10px 0 18px;letter-spacing:-.015em}
+  p{margin:0 0 18px}
+  .muted{color:var(--ink2)}
+  .small{font-size:14px;line-height:1.75;color:var(--ink3)}
+  .rule{width:44px;height:1px;background:var(--gold);margin:0 0 18px}
+
+  /* reveal */
+  .reveal{opacity:0;transform:translateY(16px);transition:opacity .9s ease,transform .9s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+
+  /* top bar */
+  .top{position:sticky;top:0;z-index:30;background:rgba(248,244,236,.86);backdrop-filter:saturate(140%) blur(12px);-webkit-backdrop-filter:saturate(140%) blur(12px);border-bottom:1px solid rgba(221,211,195,.7)}
+  .top .bar{display:flex;align-items:center;justify-content:space-between;height:56px;gap:10px}
+  .brand{font-family:var(--serif);font-weight:600;font-size:17px;text-decoration:none;white-space:nowrap;display:flex;align-items:center;min-height:44px}
+  .brand small{font-family:var(--sans);font-weight:400;color:var(--ink3);font-size:12.5px;margin-left:8px}
+  .draft{display:inline-block;font-family:var(--sans);font-size:11px;font-weight:600;color:var(--accent);border:1px solid rgba(139,58,47,.35);border-radius:999px;padding:0 8px;margin-left:8px;line-height:20px}
+  .nav{display:flex;gap:2px;font-size:15px}
+  .nav a{text-decoration:none;color:var(--ink2);padding:0 10px;height:44px;display:flex;align-items:center;border-radius:999px}
+  .nav a:hover{color:var(--ink);background:rgba(34,29,25,.05)}
+  @media (max-width:560px){.brand small{display:none}.nav{font-size:14px}.nav a{padding:0 7px}.nav .opt{display:none}}
+
+  /* hero */
+  .hero{padding:34px 0 30px}
+  .hero-in{max-width:1180px;margin:0 auto;padding:0 18px;display:grid;gap:30px}
+  .print{margin:0;background:var(--card);padding:12px 12px 10px;border:1px solid var(--line);border-radius:3px;box-shadow:var(--shadow)}
+  .print img{width:100%;height:auto;border-radius:1px}
+  .print figcaption{font-size:12.5px;line-height:1.6;color:var(--ink3);margin-top:10px;padding:0 2px}
+  .kicker{font-size:14px;font-weight:600;letter-spacing:.16em;color:var(--accent)}
+  .hero h1{font-size:clamp(66px,16vw,124px);line-height:1;letter-spacing:-.035em;margin:12px 0 0}
+  .names{font-size:15px;color:var(--ink2);margin-top:16px;letter-spacing:.01em}
+  .names b{color:var(--ink);font-weight:600}
+  .lead{font-family:var(--serif);font-weight:500;font-size:clamp(19px,2.4vw,22px);line-height:1.8;color:var(--ink);margin:22px 0 0}
+  .lead em{font-style:normal;color:var(--accent)}
+  .cta{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:48px;padding:0 20px;border-radius:999px;font-family:var(--sans);font-size:15.5px;font-weight:600;text-decoration:none;cursor:pointer;border:1px solid transparent;line-height:1.2;background:none;color:var(--ink)}
+  .btn.dark{background:var(--ink);color:#FBF7F0}
+  .btn.outline{border-color:rgba(34,29,25,.35)}
+  .btn.accent{background:var(--accent);color:#fff}
+  .btn:hover{filter:brightness(1.06)}
+  .ico{width:18px;height:18px;flex:none}
+  @media (min-width:1000px){
+    .hero{padding:64px 0 54px}
+    .hero-in{grid-template-columns:1.32fr 1fr;gap:64px;align-items:center;padding:0 32px}
+  }
+
+  /* summary + audio */
+  .summary{padding:12px 0 18px}
+  .sum-grid{display:grid;gap:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:24px 22px}
+  .card .label{font-size:12.5px;font-weight:600;letter-spacing:.14em;color:var(--accent);margin-bottom:10px}
+  .sum-text{font-size:16.5px;line-height:1.85;color:var(--ink);margin:0}
+  .audio-card{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:center}
+  .play-big{width:64px;height:64px;border-radius:50%;border:0;background:var(--accent);color:#fff;display:flex;align-items:center;justify-content:center;cursor:pointer;box-shadow:0 12px 24px -12px rgba(139,58,47,.7)}
+  .play-big .ico{width:24px;height:24px}
+  .a-title{font-family:var(--serif);font-weight:600;font-size:19px;line-height:1.4}
+  .a-sub{font-size:13.5px;color:var(--ink3);margin-top:2px}
+  .track{position:relative;height:6px;border-radius:6px;background:var(--bg3);margin-top:12px;cursor:pointer}
+  .track i{position:absolute;left:0;top:0;bottom:0;width:0;border-radius:6px;background:var(--accent)}
+  .times{display:flex;justify-content:space-between;font-size:12.5px;color:var(--ink3);margin-top:6px;font-variant-numeric:tabular-nums}
+  .a-note{grid-column:1/-1;font-size:12.5px;color:var(--ink3);margin:2px 0 0}
+  @media (min-width:860px){.sum-grid{grid-template-columns:1.25fr 1fr}}
+
+  /* facts */
+  .facts{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin:30px 0 0}
+  .fact{padding:20px 16px 22px;border-left:1px solid var(--line)}
+  .fact:nth-child(odd){border-left:0}
+  .fact:nth-child(n+3){border-top:1px solid var(--line)}
+  .fact .y{font-family:var(--serif);font-weight:600;font-size:32px;line-height:1.1;color:var(--accent)}
+  .fact .t{font-size:14.5px;line-height:1.6;color:var(--ink2);margin-top:8px}
+  @media (min-width:760px){.facts{grid-template-columns:repeat(4,1fr)}.fact{border-left:1px solid var(--line)!important;border-top:0!important}.fact:first-child{border-left:0!important}}
+
+  /* epigraph */
+  .epigraph{padding:86px 0 30px;text-align:center}
+  .epigraph blockquote{margin:0 auto;max-width:640px;font-family:var(--serif);font-weight:500;font-size:clamp(21px,3.2vw,27px);line-height:1.75;color:var(--ink)}
+  .epigraph cite{display:block;font-style:normal;font-family:var(--sans);font-size:14px;color:var(--ink3);margin-top:18px}
+  .epigraph .rule{margin:0 auto 26px}
+
+  /* journey */
+  .journey{padding:56px 0 30px}
+  .stops{list-style:none;margin:30px 0 0;padding:0;position:relative;display:grid;gap:0}
+  .stops:before{content:"";position:absolute;left:9px;top:12px;bottom:12px;width:1px;background:linear-gradient(var(--gold),var(--line))}
+  .stop{position:relative;padding:0 0 26px 40px}
+  .stop:before{content:"";position:absolute;left:3px;top:7px;width:13px;height:13px;border-radius:50%;background:var(--bg);border:2px solid var(--accent)}
+  .stop.end:before{background:var(--accent)}
+  .stop .yr{font-size:13px;font-weight:600;letter-spacing:.06em;color:var(--accent)}
+  .stop .pl{font-family:var(--serif);font-weight:600;font-size:20px;line-height:1.4;margin-top:2px}
+  .stop .ds{font-size:15px;line-height:1.65;color:var(--ink2);margin-top:4px}
+  @media (min-width:900px){
+    .stops{grid-template-columns:repeat(5,1fr);gap:18px}
+    .stops:before{left:0;right:0;top:9px;bottom:auto;width:auto;height:1px;background:linear-gradient(90deg,var(--gold),var(--line))}
+    .stop{padding:34px 0 0}
+    .stop:before{top:3px;left:0}
+  }
+
+  /* story */
+  section{padding:76px 0}
+  .chapter{border-top:1px solid var(--line);padding-top:60px;margin-top:60px}
+  .chapter.first{border-top:0;margin-top:26px;padding-top:0}
+  .ch-label{display:flex;align-items:baseline;gap:12px;font-size:13px;font-weight:600;letter-spacing:.14em;color:var(--ink3)}
+  .ch-label .n{font-family:var(--serif);font-size:16px;color:var(--accent);letter-spacing:0}
+  h3.ch-name{font-weight:700;font-size:clamp(42px,8.4vw,58px);line-height:1.1;margin:8px 0 4px;letter-spacing:-.025em}
+  .ch-sub{font-family:var(--serif);font-weight:500;font-size:19px;color:var(--ink2);margin:0 0 26px}
+  .ch-sub .yr{font-family:var(--sans);font-size:14px;color:var(--ink3);margin-left:6px}
+  h4{font-size:23px;line-height:1.45;margin:46px 0 12px}
+  blockquote.q{margin:28px 0;padding:2px 0 2px 20px;border-left:2px solid var(--accent);font-family:var(--serif);font-weight:500;font-size:18.5px;line-height:1.85;color:var(--ink)}
+  blockquote.q cite{display:block;font-style:normal;font-family:var(--sans);font-size:13.5px;color:var(--ink3);margin-top:10px}
+  figure.ph{margin:30px 0;background:var(--card);padding:9px 9px 8px;border:1px solid var(--line);border-radius:3px}
+  figure.ph img{width:100%;height:auto}
+  figure.ph figcaption{font-size:13.5px;line-height:1.6;color:var(--ink3);margin-top:8px;padding:0 2px}
+  .float-r{float:right;width:42%;max-width:250px;margin:6px 0 16px 24px}
+  .float-r figcaption{font-size:12.5px}
+  .clear{clear:both}
+  @media (max-width:560px){
+    .float-r{float:none;width:auto;max-width:none;margin:24px 0;display:grid;grid-template-columns:44% 1fr;gap:14px;align-items:end}
+    .float-r figcaption{margin-top:0;font-size:13px}
+  }
+
+  /* 박여선 */
+  .yousan{background:var(--bg3);border:1px solid var(--line);border-radius:22px;padding:34px 24px 30px;margin:46px -6px}
+  .yousan h4{margin:10px 0 16px;font-size:clamp(25px,4.4vw,31px)}
+  .yousan .grid{display:grid;gap:22px}
+  .yousan figure{margin:0;background:var(--card);padding:8px;border:1px solid var(--line);border-radius:3px}
+  .yousan figure img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+  .yousan figcaption{font-size:12.5px;color:var(--ink3);margin-top:7px;line-height:1.6}
+  .yousan blockquote.q{border-color:var(--accent-2)}
+  .epitaph{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:24px 18px;text-align:center;margin:28px 0 8px}
+  .epitaph .en{font-family:var(--serif);font-weight:600;letter-spacing:.16em;font-size:13.5px;line-height:2.05;color:var(--ink2)}
+  .epitaph .en .big{font-size:19px;letter-spacing:.12em;color:var(--ink)}
+  .epitaph .ko{font-family:var(--serif);font-weight:500;font-size:17px;color:var(--accent);margin-top:14px}
+  @media (max-width:760px){.yousan figure{display:grid;grid-template-columns:46% 1fr;gap:14px;align-items:end;background:none;border:0;padding:0}.yousan figure img{background:var(--card);padding:7px;border:1px solid var(--line)}.yousan figcaption{margin-top:0}}
+  @media (min-width:761px){.yousan{padding:46px 46px 40px;margin:54px -44px}.yousan .grid{grid-template-columns:1.4fr 1fr;align-items:start}.yousan figure{max-width:280px;justify-self:end}}
+
+  /* 16일 */
+  .sixteen{text-align:center;padding:40px 0 34px;margin:10px 0 20px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .sixteen .num{font-family:var(--serif);font-weight:600;font-size:clamp(96px,22vw,150px);line-height:1;color:var(--accent);letter-spacing:-.04em}
+  .sixteen .num span{font-size:.32em;letter-spacing:0;margin-left:4px;color:var(--ink)}
+  .sixteen p{max-width:460px;margin:16px auto 0;font-family:var(--serif);font-weight:500;font-size:18px;line-height:1.8;color:var(--ink)}
+
+  /* confession */
+  .confession{background:var(--bg2);text-align:center;padding:96px 0}
+  .confession .mark{font-family:var(--serif);font-size:84px;line-height:.6;color:var(--gold);height:40px}
+  .confession blockquote{margin:0 auto;max-width:700px;font-family:var(--serif);font-weight:500;font-size:clamp(21px,3.3vw,28px);line-height:1.8;color:var(--ink)}
+  .confession cite{display:block;font-style:normal;font-family:var(--sans);font-size:14px;line-height:1.7;color:var(--ink3);margin-top:22px}
+
+  .linkcard{display:flex;align-items:center;justify-content:space-between;gap:14px;border:1px solid var(--line);border-radius:16px;padding:16px 18px;text-decoration:none;background:var(--card);margin:28px 0}
+  .linkcard .lt{font-size:13px;color:var(--ink3)}
+  .linkcard .lh{font-family:var(--serif);font-weight:600;font-size:17px;line-height:1.5}
+  .linkcard .arr{font-size:20px;color:var(--accent)}
+
+  /* documentary */
+  .player{position:relative;aspect-ratio:16/9;background:#1d1915;border-radius:14px;overflow:hidden;margin:26px 0 16px;cursor:pointer;box-shadow:var(--shadow)}
+  .player img{width:100%;height:100%;object-fit:cover;opacity:.92;transition:opacity .2s}
+  .player:hover img{opacity:1}
+  .player .play{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+  .player .play span{width:76px;height:76px;border-radius:50%;background:rgba(255,253,248,.95);display:flex;align-items:center;justify-content:center;box-shadow:0 10px 30px rgba(0,0,0,.3)}
+  .player .play span:after{content:"";border-left:22px solid var(--accent);border-top:13px solid transparent;border-bottom:13px solid transparent;margin-left:6px}
+  .player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+  .chips{display:grid;grid-template-columns:1fr;gap:8px}
+  .chip{display:flex;align-items:center;gap:14px;width:100%;min-height:56px;text-align:left;background:var(--card);border:1px solid var(--line);color:var(--ink);border-radius:14px;padding:10px 14px;font-family:var(--sans);font-size:15px;cursor:pointer;line-height:1.45}
+  .chip:hover,.chip.on{border-color:var(--accent)}
+  .chip .tm{font-variant-numeric:tabular-nums;font-weight:600;color:var(--accent);min-width:48px;font-size:14px}
+  .chip .ds{display:block;font-size:13px;color:var(--ink3)}
+  @media (min-width:760px){.chips{grid-template-columns:1fr 1fr}}
+
+  /* visit */
+  .visit{background:var(--bg2)}
+  .info{border:1px solid var(--line);border-radius:18px;background:var(--card);overflow:hidden;margin:24px 0}
+  .info .row{display:grid;grid-template-columns:92px 1fr;gap:12px;padding:14px 18px;border-top:1px solid var(--line);font-size:15.5px;line-height:1.6}
+  .info .row:first-child{border-top:0}
+  .info .k{color:var(--ink3);font-size:13.5px;padding-top:2px}
+  .info .v b{font-weight:600}
+  .info .acts{display:flex;flex-wrap:wrap;gap:10px;padding:16px 18px;border-top:1px solid var(--line);background:var(--bg)}
+  .timeline{list-style:none;margin:26px 0;padding:0;position:relative}
+  .timeline:before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:1px;background:var(--line)}
+  .timeline li{position:relative;padding:0 0 20px 32px}
+  .timeline li:before{content:"";position:absolute;left:2px;top:9px;width:11px;height:11px;border-radius:50%;background:var(--bg2);border:2px solid var(--accent)}
+  .timeline li.now:before{background:var(--accent)}
+  .timeline .d{font-family:var(--serif);font-weight:600;font-size:15.5px}
+  .timeline .e{font-size:15px;color:var(--ink2);line-height:1.65}
+  details{border-top:1px solid var(--line)}
+  details:last-of-type{border-bottom:1px solid var(--line)}
+  summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:14px;min-height:56px;padding:8px 2px;font-family:var(--serif);font-weight:600;font-size:17.5px}
+  summary::-webkit-details-marker{display:none}
+  summary:after{content:"+";font-family:var(--sans);font-weight:400;font-size:22px;color:var(--accent);line-height:1}
+  details[open] summary:after{content:"–"}
+  details .body{padding:0 2px 22px;font-size:15.5px;color:var(--ink2)}
+  .poem{font-family:var(--serif);font-weight:500;font-size:16px;line-height:2;white-space:pre-line;color:var(--ink)}
+  .inscr{font-family:var(--serif);font-weight:500;font-size:15.5px;line-height:1.9;color:var(--ink)}
+  .inscr.en{font-size:14.5px;color:var(--ink2);margin-top:14px}
+  .refs{padding-left:18px;margin:0}
+  .refs li{margin-bottom:8px;font-size:14.5px;line-height:1.65}
+
+  /* closing */
+  .closing{text-align:center;padding:110px 0 100px}
+  .closing h2{margin-bottom:26px}
+  .closing blockquote{margin:0 auto;max-width:640px;font-family:var(--serif);font-weight:500;font-size:clamp(20px,3vw,25px);line-height:1.85}
+  .closing cite{display:block;font-style:normal;font-size:14px;color:var(--ink3);margin-top:18px}
+  .closing .verse{margin:44px auto 0;font-family:var(--serif);font-weight:500;color:var(--accent);font-size:17px}
+  .closing .cta{justify-content:center;margin-top:34px}
+
+  /* english */
+  .en-sec{background:var(--bg2)}
+  .en-sec h3{font-size:22px;margin:34px 0 10px}
+  .en-sec p{font-size:16.5px;line-height:1.8;word-break:normal}
+  .en-more{margin:8px 0 26px}
+  .en-more .body{color:var(--ink)}
+  .en-more .body h3:first-child{margin-top:6px}
+
+  footer{background:var(--bg3);color:var(--ink2);padding:48px 0 120px;font-size:13.5px;line-height:1.85;border-top:1px solid var(--line)}
+  footer .name{font-family:var(--serif);font-weight:600;color:var(--ink);font-size:17px}
+  footer .credits{margin-top:18px;border-top:1px solid var(--line);padding-top:18px}
+
+  /* sticky bar */
+  .dock{position:fixed;left:0;right:0;bottom:0;z-index:40;display:grid;grid-template-columns:1.25fr 1fr 1fr;gap:8px;padding:10px 12px calc(10px + env(safe-area-inset-bottom));background:rgba(255,253,248,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--line);transform:translateY(calc(100% + 48px));transition:transform .35s ease}
+  .dock.show{transform:none}
+  .dock .btn{min-height:48px;padding:0 10px;font-size:14.5px;width:100%}
+  .dock .btn.dark{gap:8px}
+  .dock .t{font-variant-numeric:tabular-nums;font-weight:500;opacity:.8;font-size:13px}
+  @media (min-width:900px){.dock{left:auto;right:24px;bottom:24px;width:360px;border:1px solid var(--line);border-radius:999px;padding:8px;box-shadow:var(--shadow)}.dock.show{transform:translateY(calc(100% + 48px))}.dock.show.playing{transform:none}}
+  .toast{position:fixed;left:50%;bottom:96px;transform:translate(-50%,20px);background:var(--ink);color:#FBF7F0;font-size:14px;padding:10px 16px;border-radius:999px;opacity:0;transition:all .3s;z-index:50;pointer-events:none}
+  .toast.show{opacity:1;transform:translate(-50%,0)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-play" viewBox="0 0 24 24"><path fill="currentColor" d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></symbol>
+  <symbol id="i-pause" viewBox="0 0 24 24"><path fill="currentColor" d="M7 5h3.2v14H7zM13.8 5H17v14h-3.2z"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M12 21s-6.5-6.2-6.5-11.2a6.5 6.5 0 0 1 13 0C18.5 14.8 12 21 12 21z"/><circle cx="12" cy="9.8" r="2.3" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+  <symbol id="i-share" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7.5 7.5 12 3l4.5 4.5M5 13v6.5h14V13"/></symbol>
+</svg>
+
+<header class="top">
+  <div class="wide bar">
+    <a class="brand" href="#top">박에스더<small>1877–1910</small><span class="draft">검토용 시안</span></a>
+    <nav class="nav" aria-label="바로가기">
+      <a href="#story">이야기</a><a href="#listen">듣기</a><a class="opt" href="#documentary">다큐</a><a href="#visit">묘소</a><a href="#english" lang="en">EN</a>
+    </nav>
+  </div>
+</header>
+
+<main id="top">
+<div class="hero">
+  <div class="hero-in">
+    <figure class="print reveal">
+      <img src="couple-1897.jpg" width="1800" height="1218" alt="한복을 입고 나란히 앉은 박에스더와 남편 박여선의 흑백 사진" fetchpriority="high">
+      <figcaption>박에스더와 남편 박여선. 로제타 홀이 1897년 펴낸 『The Life of Rev. William James Hall, M.D.』에 “Mr. and Mrs. Pak”이라는 제목으로 실린 사진입니다.</figcaption>
+    </figure>
+    <div class="head reveal">
+      <div class="kicker">조선 최초의 여의사</div>
+      <h1>박에스더</h1>
+      <div class="names"><b>김점동</b> · <b>김에스더</b> · <b>박에스더</b> &nbsp;|&nbsp; 1877–1910</div>
+      <p class="lead">1900년 4월 28일, 미국 볼티모어. 아내의 의과대학 졸업을 <em>16일</em> 앞두고 남편 박여선이 숨을 거두었습니다. 아내는 슬픔 속에서 마지막 시험을 치렀고, 조선 최초의 여의사가 되어 고국으로 돌아갔습니다. 남편은 지금도 볼티모어에 잠들어 있습니다.</p>
+      <div class="cta">
+        <a class="btn dark" href="#story">이야기 읽기</a>
+        <button class="btn outline" type="button" data-audio-toggle><svg class="ico"><use href="#i-play"/></svg><span data-audio-label>3분 음성으로 듣기</span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section class="summary" id="listen" style="padding:10px 0 20px">
+  <div class="wide">
+    <div class="sum-grid">
+      <div class="card reveal">
+        <div class="label">1분 요약</div>
+        <p class="sum-text">서울 정동의 가난한 집 딸 김점동은 이화학당과 보구여관에서 의사의 꿈을 품었고, 세례를 받아 에스더, 결혼해 박에스더가 되었습니다. 남편 박여선은 미국까지 동행해 아내의 공부를 뒷바라지했지만, 졸업 16일 전 볼티모어에서 세상을 떠났습니다. 1900년 조선 여성 최초의 서양 의사가 된 에스더는 10년 동안 조선의 여성과 아이들을 돌보다, 1910년 남편과 같은 병으로 세상을 떠났습니다.</p>
+      </div>
+      <div class="card reveal">
+        <div class="label">음성 안내</div>
+        <div class="audio-card">
+          <button class="play-big" type="button" data-audio-toggle aria-label="음성 안내 재생"><svg class="ico"><use href="#i-play"/></svg></button>
+          <div>
+            <div class="a-title">박에스더 이야기</div>
+            <div class="a-sub">처음부터 끝까지 듣는 3분</div>
+            <div class="track" data-audio-seek role="slider" aria-label="재생 위치" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0"><i data-audio-progress></i></div>
+            <div class="times"><span data-audio-time>0:00</span><span data-audio-dur>2:56</span></div>
+          </div>
+          <p class="a-note">AI 음성(ElevenLabs)으로 낭독했습니다.</p>
+        </div>
+      </div>
+    </div>
+    <div class="facts reveal" role="list">
+      <div class="fact" role="listitem"><div class="y">1877</div><div class="t">서울 정동에서 김점동으로 태어남</div></div>
+      <div class="fact" role="listitem"><div class="y">1891</div><div class="t">세례를 받고 ‘에스더’라는 이름을 얻음</div></div>
+      <div class="fact" role="listitem"><div class="y">1900</div><div class="t">볼티모어 여자의과대학 졸업. 서양 의학을 공부한 첫 조선 여성 의사</div></div>
+      <div class="fact" role="listitem"><div class="y">1910</div><div class="t">귀국 후 10년 동안 여성과 아이들을 돌보다 폐결핵으로 별세</div></div>
+    </div>
+  </div>
+</section>
+
+<div class="epigraph wrap reveal">
+  <div class="rule"></div>
+  <blockquote>“조선의 여성들은 이름이 없다. 그들은 작은 애, 혹은 예쁜이라고 불리는데, 결혼을 하고 아들을 낳아야만 ‘창식이 엄니’같이 아들의 이름에 따라 누구의 엄마라고 불린다.”
+    <cite>로제타 홀의 일기, 1890년 10월 20일</cite></blockquote>
+</div>
+
+<section class="journey" id="journey">
+  <div class="wide">
+    <div class="wrap" style="padding:0;max-width:none">
+      <div class="eyebrow">여정</div>
+      <h2>한 사람이 걸어간 길</h2>
+      <p class="muted" style="max-width:640px">이름 없이 불리던 시대에 세 번 이름을 얻은 여인. 서울에서 볼티모어까지, 그리고 다시 조선으로 돌아온 33년의 길입니다.</p>
+    </div>
+    <ol class="stops">
+      <li class="stop reveal"><div class="yr">1877–1894</div><div class="pl">서울 정동</div><div class="ds">김점동으로 태어나 이화학당에서 배우고, 보구여관에서 의사의 꿈을 품다</div></li>
+      <li class="stop reveal"><div class="yr">1894</div><div class="pl">평양</div><div class="ds">홀 선교사 가족과 평양 개척에 나서다</div></li>
+      <li class="stop reveal"><div class="yr">1895–1896</div><div class="pl">뉴욕주 리버티</div><div class="ds">공립학교와 뉴욕 어린이 병원에서 의대 입학을 준비하다</div></li>
+      <li class="stop reveal"><div class="yr">1896–1900</div><div class="pl">볼티모어</div><div class="ds">여자의과대학을 졸업하고, 남편을 이 땅에 묻다</div></li>
+      <li class="stop end reveal"><div class="yr">1900–1910</div><div class="pl">서울 · 평양</div><div class="ds">조선의 여성과 아이들을 돌본 10년</div></li>
+    </ol>
+  </div>
+</section>
+
+<section id="story" style="padding-top:40px">
+  <div class="wrap">
+    <div class="eyebrow">이야기</div>
+    <h2>이름 셋, 한 사람의 생애</h2>
+
+    <article class="chapter first">
+      <div class="ch-label"><span class="n">01</span>첫 번째 이름</div>
+      <h3 class="ch-name">김점동</h3>
+      <p class="ch-sub">이름 없던 소녀의 꿈<span class="yr">1877–1891</span></p>
+      <figure class="ph float-r">
+        <img src="rosetta-hall.jpg" width="600" height="904" loading="lazy" alt="로제타 셔우드 홀의 초상">
+        <figcaption>로제타 셔우드 홀(1865–1951). 점동을 의사로 키워 낸 스승</figcaption>
+      </figure>
+      <p>김점동은 1877년 3월 16일 서울 정동에서 김홍택의 네 딸 가운데 셋째로 태어났습니다. 아버지가 아펜젤러 선교사의 집에서 일한 인연으로, 점동은 열 살 무렵 조선 최초의 근대 여학교인 이화학당에 들어갔습니다. 한글 성경과 교리문답, 산수와 영어를 배웠고, 특히 영어를 잘했습니다.</p>
+      <p>1890년 10월, 이화학당 안의 여성 병원 보구여관에 로제타 홀이 부임하자 점동은 그녀의 통역과 진료 보조를 맡았습니다.</p>
+      <div class="clear"></div>
+      <blockquote class="q">진료소에 통역을 제법 잘하는 점동이라는 학생 하나와 둘이서 일한다. 점동이는 영어를 잘하는 열네 살의 건강한 소녀인데, 영리하고 재빨라서 나는 그 아이를 꼭 훈련시키고 싶다.<cite>로제타 홀의 일기, 1890년 10월 24일</cite></blockquote>
+      <p>피를 보는 일을 싫어하던 점동은, 로제타가 구순구개열로 고통받던 소녀를 수술해 새 삶을 찾아 주는 모습을 곁에서 지켜본 뒤 마음이 바뀌었습니다. 그때부터 조선의 여성들에게 희망을 주는 의사가 되겠다는 꿈을 품었습니다.</p>
+      <figure class="ph">
+        <img src="ewha-students.jpg" width="888" height="470" loading="lazy" alt="한복을 입은 이화학당 초기 여학생들">
+        <figcaption>이화학당 초기 학생들</figcaption>
+      </figure>
+    </article>
+
+    <article class="chapter">
+      <div class="ch-label"><span class="n">02</span>두 번째 이름</div>
+      <h3 class="ch-name">김에스더</h3>
+      <p class="ch-sub">별이 된 이름<span class="yr">1891–1893</span></p>
+      <p>이화학당에서 복음을 배우던 점동은 어느 장마철 밤, 노아의 홍수 이야기를 떠올리며 두려워하던 친구와 함께 무릎을 꿇고 기도했습니다. 그 뒤로 점동의 방에서는 매일 밤 작은 기도회가 열렸고, 나중에는 한국인 교사들도 함께했습니다.</p>
+      <p>1891년 1월 25일, 점동은 올링거 목사에게 세례를 받고 ‘에스더’라는 새 이름을 얻었습니다. 위기에 처한 민족을 위해 목숨을 걸었던 성경 속 왕비의 이름이자, 흔히 ‘별’이라는 뜻으로 풀이되는 이름입니다.</p>
+      <p>이 무렵 로제타 홀은 뉴욕 빈민가 진료소에서 만난 의료 선교사 윌리엄 제임스 홀과 서울에서 다시 만나 1892년 6월 결혼합니다. 그리고 1년 뒤, 에스더의 삶에도 큰 변화가 찾아옵니다.</p>
+    </article>
+
+    <article class="chapter">
+      <div class="ch-label"><span class="n">03</span>세 번째 이름</div>
+      <h3 class="ch-name">박에스더</h3>
+      <p class="ch-sub">함께 걸은 사람<span class="yr">1893–1910</span></p>
+      <p>열여섯이 넘도록 혼인하지 않은 에스더를 두고 주변의 걱정이 컸습니다. 선교사들이 신랑감으로 추천한 사람은 윌리엄 홀의 마부로 일하다 신앙을 갖게 된 청년 박여선이었습니다. 집안일만 잘하는 아내와 하나님을 위해 일하는 아내 가운데 누가 좋으냐는 물음에 “하나님을 위해 일하는 여자”라고 답한 사람이었습니다.</p>
+      <blockquote class="q">저는 신분이 높든 낮든 부자이건 가난하건 상관하지 않습니다. 저는 예수님의 말씀을 좋아하지 않는 사람과는 결혼하지 않을 것입니다.<cite>에스더가 로제타 홀에게 보낸 편지에서</cite></blockquote>
+      <p>1893년 5월 24일, 두 사람은 기독교식으로 혼례를 올렸고 에스더는 남편의 성을 따라 박에스더가 되었습니다.</p>
+      <p>이듬해 부부는 홀 선교사 가족과 함께 평양 개척에 나섰지만 박해와 전쟁 속에 한 달 만에 서울로 돌아왔습니다. 그해 에스더는 첫 아기를 낳은 지 이틀 만에 잃었고, 11월에는 평양에서 부상병들을 돌보던 윌리엄 홀이 병을 얻어 세상을 떠났습니다. 남편을 잃은 로제타가 잠시 미국으로 돌아가기로 하자, 에스더 부부도 의사의 꿈을 안고 함께 길을 나섰습니다. 1894년 12월이었습니다.</p>
+
+      <h4>미국에서, 포기하지 않은 꿈</h4>
+      <figure class="ph float-r">
+        <img src="liberty-1895.jpg" width="670" height="864" loading="lazy" alt="양복을 입은 박에스더와 박여선, 로제타 홀과 두 아이의 가족 사진">
+        <figcaption>1895년 9월. 박에스더와 박여선(뒷줄), 로제타 홀과 셔우드, 이디스</figcaption>
+      </figure>
+      <p>1895년 1월 미국에 도착한 일행은 로제타의 고향인 뉴욕주 리버티에 머물렀습니다. 에스더는 공립학교를 다니고 뉴욕의 어린이 병원에서 일하며 라틴어, 물리, 수학을 익혔습니다. 박여선은 로제타 아버지의 농장에서 일하며 아내를 뒷바라지했습니다.</p>
+      <p>그러나 두 번째 아이를 또 잃었고, 바라던 펜실베이니아 여자의과대학 진학도 이루지 못했습니다. 함께 조선으로 돌아가겠느냐는 로제타의 물음에 에스더는 이렇게 답했습니다.</p>
+      <div class="clear"></div>
+      <blockquote class="q">만약 제가 지금 이것을 포기한다면, 또 다른 기회가 저에게 다시는 오지 않을 것이라는 것을 잘 알고 있습니다. 만약 이것이 하나님의 뜻이라면, 이것을 포기할 생각이 없습니다. 남편도 그 어떤 것보다 제가 의사가 되는 것을 원하고 있습니다. 저는 최선을 다해 노력할 것이고, 최선을 다한 후에도 배울 수가 없다면, 그때 포기하겠습니다. 그 이전에는 절대 포기할 수 없습니다.<cite>에스더가 로제타 홀에게 보낸 답장에서</cite></blockquote>
+      <p>1896년 10월 1일, 에스더는 볼티모어 여자의과대학(Woman’s Medical College of Baltimore)에 입학했습니다. 서양 의학을 공부한 첫 조선 여성이었습니다.</p>
+
+      <div class="yousan reveal" id="yousan">
+        <div class="eyebrow">볼티모어에 남은 사람</div>
+        <h4>남편 박여선, 1868–1900</h4>
+        <div class="grid">
+          <div>
+            <p>박여선은 1868년 9월 21일 조선에서 태어났습니다. 훈장이던 아버지의 뜻을 거스르고 서울에 올라와 마부로 일하다가, 1892년 윌리엄 홀의 평양 여행길에 동행하며 신앙을 갖게 되었습니다.</p>
+            <p>미국에서는 농장에서 일하며 아내의 학비와 생활비를 댔고, 틈틈이 혼자 영어를 공부했습니다. 그러나 1899년 기록에는 그가 폐결핵으로 의과대학과 연계된 병원에서 치료를 받고 있다고 적혀 있습니다. 에스더는 낮에는 수업과 실험을, 밤에는 남편 간호를 이어 갔습니다.</p>
+          </div>
+          <figure>
+            <img src="gravestone-1900.jpg" width="595" height="793" loading="lazy" alt="풀밭에 놓인 박여선의 옛 묘비">
+            <figcaption>박여선의 옛 묘비. 로레인 파크 공동묘지</figcaption>
+          </figure>
+        </div>
+        <blockquote class="q">낮에는 수업을 듣고 실험을 하는 힘든 학업을 해내면서도, 밤에는 남편을 지극히 간호하는 삶을 오랫동안 반복했는데, 그녀가 마지막 졸업 시험을 시작하려 할 때쯤 남편이 폐결핵으로 사망했습니다. 하지만 이런 비극적인 상황에도 불구하고, 그녀는 매우 훌륭히 시험을 통과했습니다.<cite>볼티모어 여자의과대학 루이스 교수의 회고</cite></blockquote>
+        <p>1900년 4월 28일, 박여선은 아내의 졸업을 16일 앞두고 세상을 떠났습니다. 볼티모어 서쪽 로레인 파크 공동묘지의 스미스 가문 가족 묘역에 맨 처음 묻힌 사람이 되었습니다. 어떤 인연으로 그곳에 묻혔는지는 지금도 알려지지 않았습니다.</p>
+        <div class="epitaph" aria-label="박여선 묘비 문구">
+          <div class="en"><span class="big">YOUSAN CHAIRU PAK</span><br>BORN IN KOREA<br>SEPT. 21 1868<br>DIED IN BALTIMORE<br>APRIL 28 1900<br>I WAS A STRANGER<br>AND YE TOOK ME IN.<br>MATTHEW 25:35</div>
+          <div class="ko">“내가 나그네 되었을 때에 영접하였고” (마태복음 25:35)</div>
+        </div>
+        <p class="small" style="margin:14px 0 0">묘비의 ‘Yousan’은 선교사들이 부르던 이름입니다. 본래 이름은 박여선(朴汝先)으로, 1897년 주미공사 서광범의 보고와 1900년 『신학월보』에 그렇게 적혀 있습니다. 가운데 이름 ‘Chairu’의 뜻은 아직 밝혀지지 않았습니다.</p>
+      </div>
+
+      <div class="sixteen reveal" aria-label="16일">
+        <div class="num">16<span>일</span></div>
+        <p>남편을 떠나보낸 1900년 4월 28일부터 졸업식이 열린 5월 14일까지. 에스더는 그 16일 동안 마지막 시험을 치렀습니다.</p>
+      </div>
+
+      <h4>의사 박에스더, 다시 조선으로</h4>
+      <figure class="ph float-r">
+        <img src="esther-graduation.jpg" width="480" height="790" loading="lazy" alt="졸업 가운과 학사모 차림의 박에스더">
+        <figcaption>졸업 가운을 입은 박에스더. 사진 아래에 “Korea’s First Woman Doctor”라고 적혀 있습니다.</figcaption>
+      </figure>
+      <p>1900년 5월 14일, 에스더는 볼티모어 여자의과대학을 졸업했습니다. 서양 의학을 공부한 조선 최초의 여성 의사였습니다. 미국에 남을 길도 있었지만, 그해 가을 그녀는 남편의 무덤을 뒤로하고 미감리회 여성해외선교부가 파송한 의료 선교사로 조선에 돌아왔습니다.</p>
+      <p>서울 보구여관과 평양의 광혜여원에서 이제는 로제타 홀의 조수가 아닌 동료 의사로 일했습니다. 해마다 수천 명의 여성과 아이들을 진료했고, 전염병이 돌 때에도 환자의 집을 찾아갔으며, 황해도와 평안도의 산골까지 순회 진료를 다녔습니다.</p>
+      <div class="clear"></div>
+      <figure class="ph float-r">
+        <img src="sinhak-1900.jpg" width="900" height="1391" loading="lazy" alt="세로쓰기 옛 한글로 인쇄된 신학월보 기사">
+        <figcaption>『신학월보』 1900년 11월호 기사 「부인의학사 박소사 환국하심」. 박여선의 부인이 미국에서 의학교를 졸업하고 돌아왔다는 소식입니다.</figcaption>
+      </figure>
+      <p>간호사 양성소 설립을 도왔고, 로제타 홀이 세운 평양 맹아학교에서도 가르쳤습니다. 1903년부터 1909년까지는 여자성경학교에서 전도부인들에게 성경과 위생을 가르쳤습니다. 1909년 해외 유학 여성 환영회에서 하란사, 윤정원과 함께 훈장을 받았지만, 그때 이미 폐결핵이 깊어진 뒤였습니다.</p>
+      <p>1910년 4월 13일, 박에스더는 남편과 같은 병으로 세상을 떠났습니다. 귀국한 지 10년째 되는 해였습니다.</p>
+      <div class="clear"></div>
+    </article>
+
+    <article class="chapter">
+      <div class="ch-label"><span class="n">04</span>남은 이야기</div>
+      <h3 class="ch-name" style="font-size:clamp(32px,6.4vw,46px)">그 죽음이 남긴 선물</h3>
+      <p class="ch-sub">셔우드 홀과 크리스마스 실</p>
+      <figure class="ph float-r">
+        <img src="sherwood-hall.jpg" width="500" height="661" loading="lazy" alt="안경을 쓴 셔우드 홀의 초상">
+        <figcaption>셔우드 홀(1893–1991). 에스더를 ‘이모’라 부르며 자랐습니다.</figcaption>
+      </figure>
+      <p>로제타의 아들 셔우드 홀은 어린 시절 자신을 아껴 준 에스더 이모와 여선 이모부를 모두 결핵으로 잃었습니다. 그는 에스더의 죽음 앞에서 인생의 방향을 정했다고 고백합니다.</p>
+      <div class="clear"></div>
+      <blockquote class="q">에스더 이모의 죽음은 저에게 충격으로 다가왔습니다. … 저는 결핵 전문의로 다시 조선으로 돌아와, 결핵 요양원을 세우기로 다짐했습니다.<cite>셔우드 홀, 『With Stethoscope in Asia: Korea』(1978)에서</cite></blockquote>
+      <p>셔우드 홀은 1928년 해주에 결핵 요양원을 세웠고, 1932년 12월 결핵 퇴치 기금을 모으기 위해 한국 최초의 크리스마스 실을 발행했습니다. 박에스더와 박여선을 앗아 간 병이, 수많은 생명을 살리는 운동의 불씨가 된 것입니다.</p>
+      <a class="linkcard" href="http://qr.yanghwajin.net/mandetail/?pid=17&amp;cid=73" target="_blank" rel="noopener">
+        <span><span class="lt">서울 양화진외국인선교사묘원 · 16번</span><br><span class="lh">홀 가족 3대 6명이 잠든 곳, 안내 보기</span></span>
+        <span class="arr" aria-hidden="true">→</span>
+      </a>
+    </article>
+  </div>
+</section>
+
+<section class="confession">
+  <div class="wrap reveal">
+    <div class="mark" aria-hidden="true">“</div>
+    <blockquote>하나님이 저를 위해 문을 열어주시는 어느 곳이든지 저는 가겠습니다. 제 몸과 제 마음과 제 영혼은 모두 하나님의 것이고, 비록 사람들이 저를 죽일지라도, 하나님에 대해 조선 사람들에게 가르치는 데 제 삶을 바치겠습니다. 저는 그 어떤 것보다, 예수님을 위해 일하고 싶습니다.</blockquote>
+    <cite>1894년, 평양으로 함께 가겠느냐는 로제타 홀의 물음에 에스더가 한 대답</cite>
+  </div>
+</section>
+
+<section id="documentary">
+  <div class="wrap">
+    <div class="eyebrow">다큐로 보기</div>
+    <h2>조선의 별, 박 에스더가 남긴 선물</h2>
+    <p class="muted">CTS기독교TV 특집 다큐멘터리(2020, 59분)입니다. 박대성 목사가 볼티모어에서 박에스더의 흔적을 찾는 장면과 박여선의 묘도 나옵니다. 보고 싶은 장면을 눌러 바로 시작할 수 있습니다.</p>
+    <div class="player" id="player" role="button" tabindex="0" aria-label="다큐멘터리 재생">
+      <img src="https://i.ytimg.com/vi/ACw7Yx6mvIQ/hqdefault.jpg" alt="다큐멘터리 「조선의 별, 박 에스더가 남긴 선물」 미리보기" loading="lazy">
+      <div class="play"><span></span></div>
+    </div>
+    <div class="chips" id="chips">
+      <button class="chip" data-t="0"><span class="tm">00:00</span><span>처음부터 보기<span class="ds">정동의 소녀 김점동</span></span></button>
+      <button class="chip" data-t="1349"><span class="tm">22:29</span><span>볼티모어의 4년<span class="ds">박대성 목사와 메릴랜드 역사학회</span></span></button>
+      <button class="chip" data-t="1668"><span class="tm">27:48</span><span>남편 박여선의 마지막<span class="ds">로레인 파크 공동묘지</span></span></button>
+      <button class="chip" data-t="2812"><span class="tm">46:52</span><span>셔우드 홀과 크리스마스 실<span class="ds">에스더의 죽음이 남긴 것</span></span></button>
+    </div>
+    <p class="small" style="margin-top:14px">영상 출처: CTS기독교TV 유튜브 채널</p>
+  </div>
+</section>
+
+<section class="visit" id="visit">
+  <div class="wrap">
+    <div class="eyebrow">찾아가기</div>
+    <h2>볼티모어, 박여선의 묘</h2>
+    <p>박에스더의 무덤은 지금 어디에 있는지 알 수 없습니다. 대신 볼티모어에는 남편 박여선의 묘가 남아 있고, 2018년 그 곁에 부부의 이름을 함께 새긴 기념비가 세워졌습니다. 118년 만에 두 사람의 이름이 한자리에 놓인 것입니다.</p>
+    <figure class="ph reveal">
+      <img src="memorial-2018.jpg" width="1000" height="562" loading="lazy" alt="검은 기념비와 그 앞에 놓인 흰 옛 묘비">
+      <figcaption>옛 묘비(앞)와 2018년 4월에 세운 부부 기념비(뒤). 사진 베다니 한인연합감리교회</figcaption>
+    </figure>
+    <div class="info">
+      <div class="row"><div class="k">장소</div><div class="v"><b>Lorraine Park Cemetery &amp; Mausoleum</b><br>로레인 파크 공동묘지</div></div>
+      <div class="row"><div class="k">주소</div><div class="v">5608 Dogwood Rd, Baltimore, MD 21207</div></div>
+      <div class="row"><div class="k">묘 위치</div><div class="v"><b>Garden of Prayer, Section 3, #337</b></div></div>
+      <div class="row"><div class="k">돌보는 곳</div><div class="v">베다니 한인연합감리교회<br><span class="small">Bethany Korean United Methodist Church</span></div></div>
+      <div class="acts">
+        <a class="btn accent" href="https://www.google.com/maps/search/?api=1&amp;query=Lorraine+Park+Cemetery+5608+Dogwood+Rd+Baltimore+MD+21207" target="_blank" rel="noopener"><svg class="ico"><use href="#i-pin"/></svg>지도에서 길찾기</a>
+        <a class="btn outline" href="tel:+14109790691">교회에 문의 410-979-0691</a>
+      </div>
+    </div>
+    <p class="small">한 가족의 묘역 안에 있는 묘입니다. 찾아가실 때는 조용히 참배해 주세요.</p>
+
+    <h3 style="font-size:23px;margin:46px 0 6px">이 묘를 기억해 온 시간</h3>
+    <ul class="timeline">
+      <li><div class="d">1900. 4. 28</div><div class="e">박여선 별세, 로레인 파크 공동묘지에 안장</div></li>
+      <li><div class="d">2004. 1. 13</div><div class="e">재미 사학자 방선주 박사가 처음 찾아 소개한 묘를 워싱턴 한인사 편찬 관계자들이 확인</div></li>
+      <li><div class="d">2006. 12. 29</div><div class="e">당시 웨슬리신학대학원에 다니던 박대성 전도사(현 베다니 담임목사)가 묘를 찾아감</div></li>
+      <li><div class="d">2017. 7</div><div class="e">한국 감리교 순례자들이 방문해 기념비를 세우기로 뜻을 모음</div></li>
+      <li><div class="d">2018. 4. 21</div><div class="e">베다니 한인연합감리교회 주최로 박여선·박에스더 부부 기념비 제막</div></li>
+      <li><div class="d">2021. 4. 28</div><div class="e">121주기, 베다니 교인들이 묘소를 찾아 참배</div></li>
+      <li class="now"><div class="d">지금</div><div class="e">베다니 한인연합감리교회가 이 묘를 돌보고 있습니다.</div></li>
+    </ul>
+
+    <details>
+      <summary>기념비 뒷면에 새긴 글</summary>
+      <div class="body">
+        <figure class="ph" style="margin-top:0"><img src="memorial-back.jpg" width="1000" height="562" loading="lazy" alt="한글과 영어 비문이 새겨진 기념비 뒷면"><figcaption>기념비 뒷면. 사진 베다니 한인연합감리교회</figcaption></figure>
+        <p class="inscr">한국인 최초 여의사 박에스더는 한국 백성들의 육신의 질병뿐만 아니라 복음을 전하며 영혼까지 치유했던 위대한 감리교인으로서 암흑기 조국과 여성사회를 위해 헌신한 빛난 별로 기억되고 있다. 그녀의 남편 박여선은 아내 박에스더의 의과 대학 공부를 위해 미국까지 동행해서 자신을 희생했던 든든한 후원자였다. 하지만 그는 아내가 의학공부를 마치고 의사가 되기 직전 별세하여 이곳 볼티모어에 묻혔다. 2017년 7월 이곳을 방문했던 한국의 감리교 순례자들이 이들의 위대하고 희생적이었던 삶을 기억하고자 정성과 뜻을 모아 이 묘비를 세운다. 2018년 4월</p>
+        <p class="inscr en" lang="en">Esther Pak, the first female medical doctor of Korea, was a great Methodist who not only treated illnesses of the body but also cared for the souls of the Korean people through her sharing of the gospel. She is remembered as a bright star amidst dark and troubled times, who devoted her life to her homeland and notably to the women in Korea. Yousan Pak, husband and dedicated supporter of Esther Pak, selflessly accompanied her to the United States for her medical studies. However, just before Esther could finish her studies, he passed away and was buried here in Baltimore. In July of 2017, a few Korean Methodist pilgrims who visited this place put their hearts and sincerest intentions into setting up this memorial stone in remembrance of Esther Pak’s and Yousan Pak’s remarkable lives of offering and sacrifice. April 2018</p>
+      </div>
+    </details>
+    <details>
+      <summary>시 「여선(汝先)의 묘비에서」</summary>
+      <div class="body">
+        <p class="poem">Esther의 손톱에
+봉선화 자욱이 희미해질 무렵
+향원정(香遠亭)에
+붉은 이화(梨花)가 흩날렸다
+제물포항을 떠나올 제
+많은 눈물을 흘려서인지
+가슴에 고인 서러운 한(恨)은
+끝내 숨어버리고 만다
+
+Rosetta Hall이 있는
+평양(平壤)으로 발걸음을
+돌려야 할 때가 다가오자
+Esther는 누런 종이를 벗기고
+조선의 지도에 청진기(聽診器)를 대어본다
+아직 숨을 쉰단다
+
+‘익숙해지면 떠나야 한다’ 했던가
+그 말을 부정(不正)하듯
+상투를 튼 요리사의 몸은
+떠나기를 거부한다
+아무리 추스리고 추스려도
+나락(奈落)으로 떨어져가는
+육신은 누구도 일으키지 못한다
+
+나그네 되었을 때
+손을 잡아 주었던 Smith는
+자기가 누울 자리 한 켠에
+나의 거처(居處)를 양보하는 것으로
+눈물을 대신한다
+Lorraine Park의 파아란 하늘아래
+울지도 못하는 Esther,
+그녀의 마지막 모습이다
+이제 조용히 잠든다
+33년을 숨쉬게 한 조선(朝鮮)을 가슴에 품고...,
+
+묘비(墓碑)여,
+너는 어찌 서지도 못하고
+돌아누웠느냐
+너라도 일어나서 다시 돌아올
+Esther를 맞이해야 하지 않겠는가
+조선(朝鮮)이 이토록
+멀게만 느껴지는 이유는
+그저 누워서 하늘만 바라볼 수밖에
+없기 때문이겠지
+
+안녕히 가시게나..., 점동(點童).
+그대는 절대로
+울어서는 안되네</p>
+        <p class="small">박송수 목사. 2015년 5월 17일 박대성 목사와 함께 박여선의 묘를 찾은 날 쓴 시입니다.</p>
+      </div>
+    </details>
+    <details>
+      <summary>생년을 1877년으로 적은 이유</summary>
+      <div class="body">
+        <p>박에스더의 생년은 자료마다 다릅니다. 로제타 홀의 1897년 기록과 2018년 구글 기념 로고는 1876년을, 1900년 미국 인구조사 기록과 한국민족문화대백과사전, 2018년 기념비는 1877년을 따릅니다. 이 페이지는 박대성 목사의 소책자와 기념비를 따라 1877년으로 적었습니다.</p>
+      </div>
+    </details>
+    <details>
+      <summary>더 읽기와 참고 자료</summary>
+      <div class="body">
+        <ul class="refs">
+          <li>박대성, 「‘조선 최초의 여의사’ 박에스더」, 당당뉴스, 2018. 4. 24. <a href="https://www.dangdangnews.com/news/articleView.html?idxno=30067" target="_blank" rel="noopener">글 읽기</a></li>
+          <li>박대성, 소책자 『최초의 여의사 박에스더』, 베다니 한인연합감리교회 (표지 그림 김세인)</li>
+          <li>박정희, 『닥터 로제타 홀』, 다산북스, 2015.</li>
+          <li>이덕주, 『한국교회 처음 여성들』, 기독교문사, 1990.</li>
+          <li>이덕주, 『스크랜턴』, 공옥출판사, 2014.</li>
+          <li>이방원, 「박에스더(1877–1910)의 생애와 의료선교활동」, 『의사학』 16-2, 2007.</li>
+          <li lang="en">Rosetta S. Hall ed., <i>The Life of Rev. William James Hall, M.D.</i>, Eaton &amp; Mains, 1897. <a href="https://archive.org/details/lifeofrevwilliam00hall" target="_blank" rel="noopener">Internet Archive</a></li>
+          <li lang="en">Sherwood Hall, <i>With Stethoscope in Asia: Korea</i>, MCL Associates, 1978.</li>
+          <li lang="en">Harold J. Abrahams, <i>The Extinct Medical Schools of Baltimore, Maryland</i>, Maryland Historical Society, 1969.</li>
+        </ul>
+      </div>
+    </details>
+  </div>
+</section>
+
+<section class="closing">
+  <div class="wrap reveal">
+    <div class="eyebrow">오늘, 우리에게</div>
+    <h2>빛의 빚을 진 사람들</h2>
+    <blockquote>어둠 속에 있었던 조선의 작은 소녀 김점동에게 로제타는 빛이 되었습니다. 그리고 김점동은 박에스더가 되어 조선의 여성들에게 또다시 빛이 되었습니다. 오늘날 그 빛의 빚을 진 우리들은, 또 누군가에게 빛이 되고 있는가? 길이 되고 있는가?</blockquote>
+    <cite>박대성 목사, 소책자 『최초의 여의사 박에스더』 머리말에서</cite>
+    <p class="verse">“내가 나그네 되었을 때에 영접하였고”</p>
+    <div class="cta">
+      <button class="btn dark" type="button" data-share><svg class="ico"><use href="#i-share"/></svg>이 이야기 나누기</button>
+      <button class="btn outline" type="button" data-audio-toggle><svg class="ico"><use href="#i-play"/></svg><span data-audio-label>3분 음성으로 듣기</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="en-sec" id="english" lang="en">
+  <div class="wrap">
+    <div class="eyebrow">IN ENGLISH</div>
+    <h2>Esther Kim Pak and Yousan Pak</h2>
+    <p>On April 28, 1900, in Baltimore, Yousan Pak died of tuberculosis, sixteen days before his wife graduated from medical school. She sat her final examinations in grief, became the first Korean woman trained as a doctor of Western medicine, and went home to Korea. He still rests in Baltimore.</p>
+    <details class="en-more" id="en-more">
+      <summary>Read the full story</summary>
+      <div class="body">
+    <h3>Kim Jeom-dong (1877–1891)</h3>
+    <p>Kim Jeom-dong was born on March 16, 1877, in Jeong-dong, Seoul, the third of four daughters. In an age when Korean women were rarely called by their own names, her father, who worked for the missionary Henry Appenzeller, sent her to Ewha Hakdang, Korea’s first modern school for girls. She excelled in English, and in 1890 she became the interpreter and assistant of Dr. Rosetta Sherwood Hall at Bogu Yeogwan, the first hospital for women in Korea. Watching Dr. Hall repair a young girl’s cleft lip, she decided she would become a doctor.</p>
+    <h3>Esther Kim (1891–1893)</h3>
+    <p>On January 25, 1891, she was baptized by Rev. Franklin Ohlinger and took the name Esther, after the queen in the Bible who risked her life for her people. Nightly prayer meetings began in her room at Ewha, and soon the Korean teachers joined them.</p>
+    <h3>Esther Pak (1893–1910)</h3>
+    <p>On May 24, 1893, she married Pak Yeo-seon (known to the missionaries as Yousan Pak), a young Christian who had worked for Dr. William James Hall and who had said he would rather have a wife who worked for God. The next year the couple joined the Halls in pioneering work in Pyongyang. In 1894 Esther lost her first baby, and Dr. William Hall died after caring for the wounded of the Sino-Japanese War. In December 1894 the couple left for America with Rosetta Hall.</p>
+    <p>In Liberty, New York, Esther attended public school and worked at the Nursery and Child’s Hospital while her husband worked on the Sherwood family farm to support her. She lost a second child and was turned down by the Woman’s Medical College of Pennsylvania, yet she wrote that she would not give up: her husband, too, wanted her to become a doctor more than anything. On October 1, 1896, she entered the Woman’s Medical College of Baltimore.</p>
+    <p>By 1899 Yousan was being treated for tuberculosis. Esther studied by day and nursed him by night. He died on April 28, 1900, and was buried in a family plot at Lorraine Park Cemetery. His stone reads: “I was a stranger and ye took me in” (Matthew 25:35). Esther graduated on May 14, 1900.</p>
+    <p>That fall she returned to Korea as a medical missionary of the Woman’s Foreign Missionary Society. In Seoul and Pyongyang she treated thousands of women and children each year, visited homes during epidemics, traveled to remote villages, helped train nurses, taught at a school for the blind, and taught the Bible and hygiene to Bible women. She died of tuberculosis on April 13, 1910, ten years after coming home.</p>
+    <h3>The gift her death left</h3>
+    <p>Sherwood Hall, who had called her “Aunt Esther,” resolved after her death to become a tuberculosis specialist. He opened a tuberculosis sanatorium in Haeju in 1928 and issued Korea’s first Christmas Seals in December 1932. The Hall family rests today at the Yanghwajin Foreign Missionary Cemetery in Seoul.</p>
+      </div>
+    </details>
+    <h3>Visiting the grave</h3>
+    <p>Esther Pak’s own grave has never been found. In 2018 a memorial stone bearing both of their names was placed beside Yousan Pak’s original marker. Bethany Korean United Methodist Church in Ellicott City cares for the grave.</p>
+    <div class="info">
+      <div class="row"><div class="k">Cemetery</div><div class="v"><b>Lorraine Park Cemetery &amp; Mausoleum</b></div></div>
+      <div class="row"><div class="k">Address</div><div class="v">5608 Dogwood Rd, Baltimore, MD 21207</div></div>
+      <div class="row"><div class="k">Grave</div><div class="v">Garden of Prayer, Section 3, #337</div></div>
+      <div class="row"><div class="k">Contact</div><div class="v">Bethany Korean UMC · 410-979-0691</div></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="name">베다니 한인연합감리교회</div>
+    <div>Bethany Korean United Methodist Church · 8971 Chapel Ave, Ellicott City, MD 21043 · 410-979-0691 · <a href="https://www.bethanykumc.org" target="_blank" rel="noopener">bethanykumc.org</a></div>
+    <div class="credits">
+      글: 박대성 목사의 소책자 『최초의 여의사 박에스더』를 바탕으로 정리했습니다.<br>
+      사진: Rosetta S. Hall ed., <i>The Life of Rev. William James Hall, M.D.</i>(1897), 소책자 수록 사진, 베다니 한인연합감리교회<br>
+      영상: CTS기독교TV · 음성 안내: AI 낭독(ElevenLabs)
+    </div>
+  </div>
+</footer>
+
+<div class="dock" id="dock" aria-label="빠른 메뉴">
+  <button class="btn dark" type="button" data-audio-toggle><svg class="ico"><use href="#i-play"/></svg><span data-audio-label>듣기</span><span class="t" data-audio-time>0:00</span></button>
+  <a class="btn outline" href="https://www.google.com/maps/search/?api=1&amp;query=Lorraine+Park+Cemetery+5608+Dogwood+Rd+Baltimore+MD+21207" target="_blank" rel="noopener"><svg class="ico"><use href="#i-pin"/></svg>길찾기</a>
+  <button class="btn outline" type="button" data-share><svg class="ico"><use href="#i-share"/></svg>공유</button>
+</div>
+<div class="toast" id="toast" role="status">주소를 복사했습니다</div>
+<audio id="guide" src="esther-guide.mp3" preload="none"></audio>
+
+<script>
+(function(){
+  var audio = document.getElementById('guide');
+  var toggles = document.querySelectorAll('[data-audio-toggle]');
+  var labels = document.querySelectorAll('[data-audio-label]');
+  var bars = document.querySelectorAll('[data-audio-progress]');
+  var times = document.querySelectorAll('[data-audio-time]');
+  var durs = document.querySelectorAll('[data-audio-dur]');
+  function fmt(s){ s = Math.max(0, Math.floor(s||0)); return Math.floor(s/60) + ':' + ('0' + (s%60)).slice(-2); }
+  function sync(){
+    var playing = !audio.paused;
+    toggles.forEach(function(b){ var u = b.querySelector('use'); if(u) u.setAttribute('href', playing ? '#i-pause' : '#i-play'); b.setAttribute('aria-label', playing ? '음성 안내 일시정지' : '음성 안내 재생'); });
+    labels.forEach(function(l){ var dock = l.closest('.dock'); l.textContent = playing ? (dock ? '멈춤' : '잠시 멈추기') : (dock ? '듣기' : (audio.currentTime > 0 ? '이어 듣기' : '3분 음성으로 듣기')); });
+  }
+  function tick(){
+    var p = audio.duration ? audio.currentTime / audio.duration * 100 : 0;
+    bars.forEach(function(b){ b.style.width = p + '%'; var t = b.parentNode; t.setAttribute('aria-valuenow', Math.round(p)); });
+    times.forEach(function(t){ t.textContent = fmt(audio.currentTime); });
+  }
+  toggles.forEach(function(b){ b.addEventListener('click', function(){ if(audio.paused){ audio.play(); document.getElementById('dock').classList.add('show'); } else audio.pause(); }); });
+  var dockEl = document.getElementById('dock');
+  audio.addEventListener('play', function(){ dockEl.classList.add('playing'); sync(); }); audio.addEventListener('pause', sync); audio.addEventListener('ended', function(){ audio.currentTime = 0; dockEl.classList.remove('playing'); sync(); tick(); });
+  audio.addEventListener('timeupdate', tick);
+  audio.addEventListener('loadedmetadata', function(){ durs.forEach(function(d){ d.textContent = fmt(audio.duration); }); });
+  document.querySelectorAll('[data-audio-seek]').forEach(function(t){
+    t.addEventListener('click', function(e){ var r = t.getBoundingClientRect(); var x = (e.clientX - r.left) / r.width; if(!audio.duration){ audio.play(); audio.addEventListener('loadedmetadata', function f(){ audio.currentTime = x * audio.duration; audio.removeEventListener('loadedmetadata', f); }); } else audio.currentTime = x * audio.duration; });
+    t.addEventListener('keydown', function(e){ if(!audio.duration) return; if(e.key==='ArrowRight') audio.currentTime += 10; if(e.key==='ArrowLeft') audio.currentTime -= 10; });
+  });
+
+  // share
+  var toast = document.getElementById('toast');
+  function showToast(msg){ toast.textContent = msg; toast.classList.add('show'); setTimeout(function(){ toast.classList.remove('show'); }, 2200); }
+  document.querySelectorAll('[data-share]').forEach(function(b){ b.addEventListener('click', function(){
+    var data = { title: document.title, text: '조선 최초의 여의사 박에스더와 볼티모어에 잠든 남편 박여선의 이야기', url: location.href };
+    if (navigator.share) { navigator.share(data).catch(function(){}); }
+    else if (navigator.clipboard) { navigator.clipboard.writeText(location.href).then(function(){ showToast('주소를 복사했습니다'); }); }
+  }); });
+
+  // dock visibility
+  var dock = document.getElementById('dock');
+  var hero = document.querySelector('.hero');
+  if ('IntersectionObserver' in window) {
+    new IntersectionObserver(function(es){ es.forEach(function(e){ if(!audio.paused) return; dock.classList.toggle('show', !e.isIntersecting); }); }, { threshold: 0 }).observe(hero);
+    var io = new IntersectionObserver(function(es){ es.forEach(function(e){ if(e.isIntersecting){ e.target.classList.add('in'); io.unobserve(e.target); } }); }, { rootMargin: '0px 0px -8% 0px', threshold: 0.06 });
+    document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  } else { document.querySelectorAll('.reveal').forEach(function(el){ el.classList.add('in'); }); dock.classList.add('show'); }
+
+  // open english details on #english
+  function openEn(){ if(location.hash==='#english'){ var d=document.getElementById('en-more'); if(d) d.open=true; } }
+  window.addEventListener('hashchange', openEn); openEn();
+
+  // documentary
+  var player = document.getElementById('player');
+  var chips = document.querySelectorAll('#chips .chip');
+  var VID = 'ACw7Yx6mvIQ';
+  function load(t){
+    if (!audio.paused) audio.pause();
+    var src = 'https://www.youtube-nocookie.com/embed/' + VID + '?autoplay=1&rel=0&playsinline=1' + (t ? '&start=' + t : '');
+    player.innerHTML = '<iframe src="' + src + '" title="조선의 별, 박 에스더가 남긴 선물" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>';
+    player.style.cursor = 'default';
+  }
+  player.addEventListener('click', function(){ if(!player.querySelector('iframe')) load(0); });
+  player.addEventListener('keydown', function(e){ if((e.key==='Enter'||e.key===' ') && !player.querySelector('iframe')){ e.preventDefault(); load(0);} });
+  chips.forEach(function(c){ c.addEventListener('click', function(){ chips.forEach(function(x){x.classList.remove('on')}); c.classList.add('on'); load(parseInt(c.getAttribute('data-t'),10)); player.scrollIntoView({behavior:'smooth', block:'center'}); }); });
+})();
+</script>
+</body>
+</html>
